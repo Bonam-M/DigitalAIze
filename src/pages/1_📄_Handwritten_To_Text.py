@@ -16,7 +16,7 @@ import config
     #return config['GoogleCloud']['api_key']
 
 # Set your Google Cloud API key
-api_key = config.api_key
+api_key = st.secrets.googlecloud_credentials.api_key 
 
 # Function to call Google Cloud Vision API for text detection
 def detect_text(image_base64):
@@ -135,4 +135,3 @@ if file_upload is not None:
                     on_click=None,
                     args=("extracted_text.txt",),
                 )
-                

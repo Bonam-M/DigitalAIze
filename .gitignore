@@ -1,4 +1,6 @@
 # .gitignore 
 config.py
+secrets.toml
+.streamlit/secrets.toml
 
 
