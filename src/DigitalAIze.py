@@ -19,7 +19,7 @@ st.markdown(
 multi = '''
 **👈 Select a tool from the sidebar** to see what DigitalAIze has to offer.  
     Want to know more?   
-    - Get details on how it works on [DigiTaLAIze GitHub repository](https://drive.google.com/file/d/1L1rlkCFEH-oug-W9NZwUhQShqQFlqcq9/view?usp=sharing)  
+    - Get details on how it works on [DigiTaLAIze GitHub repository](https://github.com/Bonam-M/DigitalAIze)  
     - Discover more via [Streamlit documentation](https://docs.streamlit.io/)  
 
     Keep using AI for good!
