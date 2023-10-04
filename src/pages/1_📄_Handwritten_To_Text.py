@@ -6,8 +6,7 @@ import requests
 from PIL import Image
 import fitz #PyMuPDF
 import base64
-import configparser
-import config
+#import config
 
 # Function to read API key from the configuration file
 #def get_api_key():
