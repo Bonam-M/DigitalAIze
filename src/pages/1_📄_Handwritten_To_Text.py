@@ -4,18 +4,19 @@ import tempfile
 import streamlit as st
 import requests
 from PIL import Image
-import fitz  # PyMuPDF
+import fitz #PyMuPDF
 import base64
 import configparser
+import config
 
 # Function to read API key from the configuration file
-def get_api_key():
-    config = configparser.ConfigParser()
-    config.read('config.ini')  # Adjust the path if the config file is located elsewhere
-    return config['GoogleCloud']['api_key']
+#def get_api_key():
+    #config = configparser.ConfigParser()
+    #config.read('config.ini')  # Adjust the path if the config file is located elsewhere
+    #return config['GoogleCloud']['api_key']
 
 # Set your Google Cloud API key
-api_key = get_api_key()
+api_key = config.api_key
 
 # Function to call Google Cloud Vision API for text detection
 def detect_text(image_base64):
@@ -134,3 +135,4 @@ if file_upload is not None:
                     on_click=None,
                     args=("extracted_text.txt",),
                 )
+                
