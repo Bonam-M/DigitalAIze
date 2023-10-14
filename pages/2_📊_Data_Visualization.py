@@ -15,7 +15,7 @@ st.title("📊 Data Visualization")
 st.markdown(
     """
     Use this Machine Learning solution to visualize the distribution of numerical data  
-    from a csv, xls or xsls file.    
+    from a csv, xls or xslx file.    
     """
 )
 multi = '''
